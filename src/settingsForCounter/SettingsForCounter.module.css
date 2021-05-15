@@ -1,0 +1,36 @@
+.set_counter {
+    border: 2px solid;
+    border-radius: 10px;
+    min-height: 270px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.text_field {
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: baseline;
+}
+
+.button {
+    width: 92%;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin: 5px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+}
